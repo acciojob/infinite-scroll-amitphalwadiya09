@@ -23,7 +23,7 @@ infiList.addEventListener("scroll",()=>
    
     if( scrollHeight <= scrollTop+ clientHeight )
    {
-    console.log("i am at bottom")
+    // console.log("bottom")
     addListItem(2);
     
    }
